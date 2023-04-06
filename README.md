@@ -4,7 +4,9 @@
 
 ## Instructions
 
-TODO 
+In this homework you will work through the following two problems:
+1. Iterative Learning Control (ILC) for a car as it avoids an obstacle. 
+2. Making a robot walk with hybrid trajectory optimization with a pre-determined contact sequence.
 
 ## Submission 
 
