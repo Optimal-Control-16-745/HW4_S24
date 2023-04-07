@@ -2,6 +2,9 @@
 
 **Due Wednesday 4/19 11:59 PM Eastern.**
 
+## Walkthrough Video
+[**HW4 Walkthrough Video**](https://youtu.be/RFmqw3YTRnc)
+
 ## Instructions
 
 In this homework you will work through the following two problems:
