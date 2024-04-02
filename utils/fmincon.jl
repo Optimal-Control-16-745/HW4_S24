@@ -251,8 +251,17 @@ function fmincon(cost::Function,
 
     # Get the solution
     res = MOI.get(solver, MOI.VariablePrimal(), x)
+
+    status = MOI.get(solver, MOI.TerminationStatus())
     
-    return res 
+    if status == MOI.LOCALLY_SOLVED
+        return res 
+    else
+        # Handle other cases.
+        println("---------IPOPT FAILED TO SOLVE----------------------")
+        println("solver status: ", status)
+        error("---------IPOPT FAILED TO SOLVE----------------------")
+    end
     
 end
 
